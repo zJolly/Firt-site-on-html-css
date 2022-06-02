@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>J BALVIN</title>
+<link href="css/J Balvin.css" rel="stylesheet" type="text/css">
+
+<!--Font dal web-->
+<script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+	
+	<!-- Audio di background
+	<div align="right">
+	<!-- bottoni per volume in background
+	<button onclick="enableMute()" type="button"><img src="images/volume on.jpg" alt="volume on.jpg" width="30px" height="17px"/></button>
+	<button onclick="splittedAudio()" type="button"><img src="images/volume 50.jpg" alt="volume 50.jpg" width="30px" height="17px"/></button>
+	<button onclick="disableMute()" type="button"><img src="images/volume off.jpg" alt="volume off.jpg" width="30px" height="17px"/></button>
+	<button onclick="play()" type="button"><img src="images/play.jpg" alt="play.jpg" width="30px" height="17px"/></button>
+	</div> -->
+<div>
+<input type="range" id="range" value="50" maxlength="100">
+	<audio controls loop id="myAudio" src="file mp3/DJ Snake, J. Balvin, Tyga - Loco Contigo.mp3">
+  		<!-- <source src="file mp3/DJ Snake, J. Balvin, Tyga - Loco Contigo.mp3" type="audio/mp3"> -->
+	</audio>
+	<script type="text/javascript">
+	$(document).ready(function () {
+		document.getElementById("myAudio").play();
+		$("range").on("input", function () {
+			document.getElementById("myAudio").volume = $(this).val / 100;
+		})
+	})
+	</script>
+	</div>
+
+<!-- <script>
+var vid = document.getElementById("myAudio");
+/* funzioni per il volume */
+function enableMute() { 
+  vid.muted = false;
+  vid.volume = 1;
+} 
+
+function disableMute() { 
+  vid.muted = true;
+}
+function splittedAudio() { 
+  vid.volume = 0.25;
+}
+function play() { 
+  vid.play();
+}
+</script> -->
+
+	<!-- contenuto header -->
+<header>
+  <div class="profileLogo"> 
+    <!-- Logo -->
+    <p class="logoPlaceholder">
+      <a href="index.html" title="home page"><img src="images/logo sito.jpg" alt="logo spostify 2.jpg" width="100" height="100"></a></p>
+  </div>
+  <div class="profilePhoto"> 
+    <!-- Foto profilo --> 
+    <img src="images/j balvin 2.jpg" alt="sample" width="259"> </div>
+  <!-- Dettagli sulla persona -->
+  <section class="profileHeader">
+    <h1>J BALVIN</h1>
+<h3>CANTANTE</h3>
+    <hr>
+    <p>È nato a Medellín, la città più grande di Antioquia, dove si interessò fin da piccolo al rap, al reggae, alla dancehall, alla champeta e alla bachata, e cominciò a fare musica in giovane età. Durante gli anni della scuola secondaria iniziò a far parte di diverse bande rock. Interruppe i suoi studi universitari alla Universidad EAFIT di Medellín al settimo semestre per focalizzarsi completamente sulla musica. Fece anche parte del gruppo Mdl, oggi detto "Universidad de la Calle" ("University Street"), un gruppo di artisti di Medellín che combina il rap con il reggaeton. Durante uno scambio negli Stati Uniti conobbe Fat Al, un artista colombiano che viveva a Miami e che gli diede il suo nome d'arte, J Balvin.</p>
+  </section>
+  <!-- Link ai social network -->
+  <aside class="socialNetworkNavBar">
+    <div class="socialNetworkNav">  
+      <a href="https://open.spotify.com/artist/1vyhD5VmyZ7KMfW5gqLgo5" target="_blank"><img src="images/icona spotify.png" alt="icona spotify.png" width="74"></a></div>
+    <div class="socialNetworkNav"> 
+      <a href="https://www.youtube.com/channel/UCmBA_wu8xGg1OfOkfW13Q0Q" target="_blank"><img src="images/logo youtube.jpg"  alt="logo youtube.jpg" width="74"></a></div>
+    <div class="socialNetworkNav"> 
+      <a href="https://www.deezer.com/en/artist/10583405" target="_blank"><img src="images/icona deezer.jpg"  alt="icona deezer.jpg" width="74"></a></div>
+    <div class="socialNetworkNav"> 
+      <a href="https://music.apple.com/it/artist/bad-bunny/1126808565" target="_blank"><img src="images/icona apple.png"  alt="icona apple.png" width="74"></a></div>
+  </aside>
+</header>
+<!-- Contenuto -->
+<section class="mainContent"> 
+  <!-- Sezione specifica -->
+  <section class="section1">
+    <h2 class="sectionTitle">INFO SULL'ARTISTA</h2>
+    <hr class="sectionTitleRule">
+    <hr class="sectionTitleRule2">
+	  <iframe src="https://open.spotify.com/embed/album/6ylFfzx32ICw4L1A7YWNLN" width="220" height="260" frameborder="0" allowtransparency="true" allow="encrypted-media" align="left"></iframe>
+    <div class="section1Content">
+      <p><span>Nazionaltà : </span>Colombia</p>
+      <p><span>Genere : </span>Pop latino / Hip Hop latino / Reggaeton / Dancehall reggae</p>
+      <p><span>Periodo di attività musicale : </span>2004 - ancora in attività</p>
+      <p><span>Album pubblicati : </span>5</p>
+    </div>
+  </section>
+  <!-- Sezione specifica 2 -->
+  <section class="section2">
+    <h2 class="sectionTitle">ALTRE INFO</h2>
+    <hr class="sectionTitleRule">
+    <hr class="sectionTitleRule2">
+	  <iframe src="https://open.spotify.com/embed/album/2d9BCZeAAhiZWPpbX9aPCW" width="220" height="285" frameborder="0" allowtransparency="true" allow="encrypted-media" align="left"></iframe>
+    <!-- Contenuto  -->
+    <article class="section2Content">
+      <h2 class="sectionContentTitle">Moda</h2>
+	  <!-- <h3 class="sectionContentSubTitle"><strong>Discografia</strong></h3> -->
+      <p class="sectionContent">J Balvin ha definito la moda "la passione della sua vita, allo stesso livello della musica". È apparso come ambasciatore durante la settimana della moda di New York 2017 e ha chiesto una maggiore rappresentazione dei latini nel mondo della moda. Il musicista è apparso anche nel catalogo della primavera 2017 di Ovadia e Sons. Utilizza accessori eccentrici come cappelli da cowboy, tute colorate e jeans strappati. Isabela Raygoza ha descritto la sua estetica ai Latin Grammys del 2017 come "Eminem latino" a causa dei suoi capelli biondi al neon e dei suoi abiti sportivi dai colori vivaci. Il suo stile combina spesso streetwear tradizionalmente associato con artisti reggaeton e marchi di lusso classici. J Balvin è influenzato da musicisti come Kanye West e Pharrell Williams che hanno fatto incursioni nella moda.
+	  Nel gennaio 2019 Balvin ha lanciato la sua esclusiva collezione di abbigliamento Guess x J Balvin. Tutti gli articoli sono stati progettati a Los Angeles e catturano il suo stile giocoso, colorato e creativo, in funzione promozionale dell'album Colores.</p>
+    </article>
+    <!-- Contenuto  -->
+     <!-- <article class="section2Content">
+      <h2 class="sectionContentTitle">Vita privata</h2>
+      <p class="sectionContent">Bad Bunny ha criticato le decisioni prese per chiudere le scuole a Porto Rico e contrastare questo con l'apertura di un numero sempre maggiore di carceri. Da allora è stato nominato ai Tu Musica Urban Awards di Telemundo come "Premio umanitario dell'anno". Nel 2019, Martínez ha giocato nel roster durante l'NBA All-Star Celebrity Game al Colosseo di Bojangles a Charlotte, nel North Carolina.
+	  Il 22 luglio 2019, Bad Bunny si è unito ad artisti come Residente, Ricky Martin e oltre mezzo milione di portoricani nel prendere le strade e chiudere la più grande autostrada (PR-52), più comunemente conosciuta come Expreso Las Américas o Autopista Luis A Ferré.</p>
+    </article> --> 
+  </section>
+</section>
+<footer>
+  <hr>
+  <p class="footerDisclaimer">2019  Copyrights - <span>Protetto da Copyright</span></p>
+  <p class="footerNote">Nicolas Zoratto - <a href="mailto:nicolas.zoratto@gmail.it" style="color: blueviolet"><strong>E-MAIL</strong></a></p>
+</footer>
+</body>
+</html>
